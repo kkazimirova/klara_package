@@ -1,6 +1,6 @@
 {
   "name": "klara_package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my node package",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "fidasL-package": "git+https://github.com/FidasL/fidasL-package.git",
+    "string": "^3.3.3"
   }
 }
