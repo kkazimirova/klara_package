@@ -3,5 +3,5 @@ module.exports = {
 }
 
 function hello(name) {
-	return 'Hello ' + name
+	return 'Hello ' + name.trim()
 }
